@@ -262,7 +262,7 @@ it('Fazendo Upload de arquivo simulando um drag-and-drop', () => {
     .should('be.visible')
 
 })
-it.only('Testa a página da política de privacidade de forma independente', () =>{
+it('Testa a página da política de privacidade de forma independente', () =>{
   cy.contains('a', 'Política de Privacidade')
   //.invoke('removeAttr', 'target')
   //.click()
